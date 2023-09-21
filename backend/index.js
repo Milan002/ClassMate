@@ -287,7 +287,7 @@ app.get("/getFile", (req, res) => {
 });
 
 /*********************************** */
-//upload assignments
+//upload an assignments
 
 const storage3 = multer.diskStorage({
   destination: (req, file, callback) => {
